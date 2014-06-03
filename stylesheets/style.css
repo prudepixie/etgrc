@@ -1295,6 +1295,7 @@ h2.projectTitle {
 }
 
 .featuredText h2, .featuredText a.featuredLink {
+  background-color:rgba(0, 0, 0, 0.56);
   text-transform:uppercase;
   font-size:60px;
   font-family: 'AvenirLTStd-Heavy';
