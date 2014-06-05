@@ -233,15 +233,12 @@ a.projectItem {
     cursor:pointer;
 }
 
-a.projectItem .greyscale {
-  position:relative;
-  z-index:1;
-}
 
-a.projectItem:hover .colour {
+
+/*a.projectItem:hover .colour {
   opacity:1;
   filter: alpha(opacity = 100);
-}
+}*/
 
 a.projectItem:hover .overlay {
   opacity:1;
@@ -250,15 +247,31 @@ a.projectItem:hover .overlay {
 
 a.projectItem .colour {
   position:absolute;
-  opacity:0;
-  filter: alpha(opacity = 0);
   z-index:2;
   top:0px;
   left:0px;
   transition: opacity .3s ease-in-out;
     -moz-transition: opacity .3s ease-in-out;
     -webkit-transition: opacity .3s ease-in-out;
-}
+  width:220px;
+  height: 150px;
+    -webkit-filter: grayscale(100%);
+  }
+
+a.projectItem .colour:hover {
+  position:absolute;
+  z-index:2;
+  top:0px;
+  left:0px;
+  transition: opacity .3s ease-in-out;
+    -moz-transition: opacity .3s ease-in-out;
+    -webkit-transition: opacity .3s ease-in-out;
+  width:220px;
+  height: 150px;
+    -webkit-filter: grayscale(0%);
+  }
+
+
 
 a.projectItem .overlay {
   position:absolute;
