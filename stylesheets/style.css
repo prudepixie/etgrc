@@ -1043,6 +1043,12 @@ h2.projectTitle {
   margin-bottom:20px;
 }
 
+.lazy {
+  float:left;
+  margin-left: 30px;
+  width:900pxsd;
+}
+
 .contactBlock {
   width:100%;
   float:left;
