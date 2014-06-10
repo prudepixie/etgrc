@@ -1,19 +1,4 @@
 
-@font-face {
-  font-family: 'AvenirLTStd-Roman';
-  src: url('262C06_0_0.eot');
-  src: url('262C06_0_0.eot?#iefix') format('embedded-opentype'),
-  url('262C06_0_0.woff') format('woff'),
-  url('262C06_0_0.ttf') format('truetype');
-}
-
-@font-face {
-  font-family: 'AvenirLTStd-Heavy';
-  src: url('262C06_1_0.eot');
-  src: url('262C06_1_0.eot?#iefix') format('embedded-opentype'),
-  url('262C06_1_0.woff') format('woff'),
-  url('262C06_1_0.ttf') format('truetype');
-}
 
 html { -webkit-font-smoothing: antialiased; }
 
@@ -73,7 +58,7 @@ dl, dt, dd, ol, ul, li,
 fieldset, form, label, legend,
 table, caption, tbody, tfoot, thead, tr, th, td {
   border: 0;
-  font-family: inherit;
+  font-family: 'Ubuntu', sans-serif;
   font-size: 100%;
   font-style: inherit;
   font-weight: inherit;
@@ -207,7 +192,7 @@ body {
   display:block;
   border-bottom:2px solid #fff;
   text-decoration:none;
-  font-family:"Inconsolata";
+  font-family: 'Ubuntu', sans-serif;
 }
 
 #filter li a:hover, #filter li a.selected {
@@ -288,7 +273,7 @@ a.projectItem .overlay {
   transition: opacity .3s ease-in-out;
     -moz-transition: opacity .3s ease-in-out;
     -webkit-transition: opacity .3s ease-in-out;
-    font-family: 'AvenirLTStd-Roman';
+    font-family: 'Ubuntu', sans-serif;
     font-size:12px;
     letter-spacing:1px;
   background:#000 url('images/project-arrow.png') 200px center no-repeat;
@@ -528,6 +513,7 @@ hr {
 /* Text elements */
 p {
   margin-bottom: 15px;
+  font-size: 15px;
 }
 ul, ol {
   margin: 0 0 15px 15px;
@@ -566,7 +552,7 @@ cite, em, i {
   font-style: italic;
 }
 blockquote {
-  font-family: Georgia, "Bitstream Charter", serif;
+  font-family: 'Ubuntu', sans-serif;
   font-style: italic;
   font-weight: normal;
   margin: 0 3em;
@@ -698,9 +684,8 @@ a:hover {
 }
 
 .headerInner {
-  width:940px;
+  width:1000px;
   height:144px;
-  margin:0px auto;
   text-align:center;
   position:relative;
 }
@@ -737,9 +722,9 @@ a.logo {
   margin: 0 270px 3.65625em 0;
 }
 #branding img {
-  height: auto;
-  margin-bottom: -7px;
-  width: 100%;
+  float:left;
+  height: 100px;
+  margin: 30px 20px;
 }
 
 .backBlock {
@@ -750,15 +735,15 @@ a.logo {
 }
 
 .backBlock a {
-  font-family: 'AvenirLTStd-Heavy';
-    font-size: 12px;
-    font-weight: normal;
-    letter-spacing: 1px;
-    line-height: 2.2em;
-    text-decoration: none;
-    text-transform: uppercase;
-    background: url("images/news-nav-left-arrow.jpg") no-repeat scroll left center transparent;
-    padding-left: 20px;
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 12px;
+  font-weight: normal;
+  letter-spacing: 1px;
+  line-height: 2.2em;
+  text-decoration: none;
+  text-transform: uppercase;
+  background: url("images/news-nav-left-arrow.jpg") no-repeat scroll left center transparent;
+  padding-left: 20px;
 }
 
 
@@ -766,19 +751,10 @@ a.logo {
 -------------------------------------------------------------- */
 
 #access {
-  /*background: #222;
-  background: -moz-linear-gradient(#252525, #0a0a0a);
-  background: -o-linear-gradient(#252525, #0a0a0a);
-  background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#252525), to(#0a0a0a));
-  background: -webkit-linear-gradient(#252525, #0a0a0a);
-  -webkit-box-shadow: rgba(0, 0, 0, 0.4) 0px 1px 2px;
-  -moz-box-shadow: rgba(0, 0, 0, 0.4) 0px 1px 2px;
-  box-shadow: rgba(0, 0, 0, 0.4) 0px 1px 2px;*/
   clear: both;
   display: inline-block;
-  /*float: left;*/
-  margin: 60px auto 0px;
-  /*width: 100%;*/
+  /*margin: 0px auto 40px 300px;*/
+  margin:80px auto 0px 440px;
   text-align:center;
 }
 #access ul {
@@ -793,13 +769,13 @@ a.logo {
   margin:0px 15px;
 }
 #access a {
-  color: #000;
+  color: black;
   text-transform:uppercase;
   display: block;
   line-height: 26px;
   padding: 0;
   text-decoration: none;
-  font-family: 'AvenirLTStd-Roman';
+  font-family: 'Ubuntu', sans-serif;
   letter-spacing:1px;
 }
 #access ul ul {
@@ -853,7 +829,7 @@ a.logo {
 #access .current_page_ancestor > a,
 #access .current_page_parent > a {
   font-weight: normal;
-  border-bottom:2px solid #000;
+  border-bottom:2px solid black;
 }
 
 /* Search Form */
@@ -929,7 +905,7 @@ h2.projectTitle {
   line-height:55px;
   text-transform:uppercase;
   margin:35px 0px 20px 0px;
-  font-family: 'AvenirLTStd-Heavy';
+  font-family: 'Ubuntu', sans-serif;
   letter-spacing:2px;
 }
 
@@ -962,7 +938,7 @@ h2.projectTitle {
   color:#000;
   text-decoration:none;
   margin:0px 5px;
-  font-family:"Inconsolata";
+  font-family: 'Ubuntu', sans-serif;
 }
 
 .newsOuter {
@@ -981,13 +957,13 @@ h2.projectTitle {
   width:460px;
   border-top:2px solid #000;
   padding-top:20px;
-  font-family:'AvenirLTStd-Roman';
+  font-family: 'Ubuntu', sans-serif;
   font-size:12px;
   line-height:18px;
 }
 
 .newsOuter .right h2.title {
-  font-family:'AvenirLTStd-Heavy';
+  font-family: 'Ubuntu', sans-serif;
   text-transform:uppercase;
   font-size:16px;
   line-height:18px;
@@ -1001,13 +977,13 @@ h2.projectTitle {
 }
 
 .newsOuter .right .entry-meta {
-  font-family:'Inconsolata';
+  font-family: 'Ubuntu', sans-serif;
   margin-bottom:10px;
   color:#000;
 }
 
 .newsOuter .right a.readMore {
-  font-family:'Inconsolata';
+  font-family: 'Ubuntu', sans-serif;
   text-decoration:none;
   border-bottom:1px solid #000;
   padding-bottom:1px;
@@ -1067,7 +1043,7 @@ h2.projectTitle {
   border-top:0px solid #000 !important;
   padding:25px 0px;
   width:640px;
-  font-family: 'AvenirLTStd-Roman';
+  font-family: 'Ubuntu', sans-serif;
 }
 
 .contactBlock .rightColumn .mapBlock {
@@ -1115,12 +1091,12 @@ h2.projectTitle {
 #main .gform_wrapper .gform_footer input[type="submit"] {
   border:0px;
   background:none;
-  font-family: 'AvenirLTStd-Heavy';
-    letter-spacing: 1px;
-    text-transform: uppercase;
-    padding:0px;
-    font-size:12px;
-    cursor:pointer;
+  font-family: 'Ubuntu', sans-serif;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  padding:0px;
+  font-size:12px;
+  cursor:pointer;
 }
 
 #main .gform_wrapper .top_label input.medium {
@@ -1160,7 +1136,7 @@ h2.projectTitle {
   width:640px;
   font-size:18px;
   line-height:28px;
-  font-family: 'AvenirLTStd-Roman';
+  font-family: 'Ubuntu', sans-serif;
 }
 
 .baseBlocks {
@@ -1187,7 +1163,7 @@ h2.projectTitle {
   width:100%;
   font-size:12px;
   line-height:15px;
-  font-family:"Inconsolata";
+  font-family: 'Ubuntu', sans-serif;
 }
 
 .baseBlocksInner span.entry {
@@ -1197,7 +1173,7 @@ h2.projectTitle {
   line-height:22px;
   text-transform:uppercase;
   margin-bottom:12px;
-  font-family: 'AvenirLTStd-Heavy';
+  font-family: 'Ubuntu', sans-serif;
   letter-spacing:1px;
 }
 
@@ -1206,7 +1182,7 @@ h2.projectTitle {
   width:100%;
   font-size:12px;
   line-height:15px;
-  font-family:"Inconsolata";
+  font-family: 'Ubuntu', sans-serif;
 }
 
 .leftColumn span.entry {
@@ -1216,7 +1192,7 @@ h2.projectTitle {
   line-height:22px;
   text-transform:uppercase;
   margin-bottom:12px;
-  font-family: 'AvenirLTStd-Heavy';
+  font-family: 'Ubuntu', sans-serif;
   letter-spacing:1px;
 }
 
@@ -1224,7 +1200,6 @@ h2.projectTitle {
     background: none repeat scroll 0 0 #111;
     bottom: 0;
     color: #FFFFFF;
-    /*font-family: 'Apercu Medium',Arial,sans-serif;*/
     font-size: 15px;
     height: 48px;
     left: 0;
@@ -1240,7 +1215,7 @@ h2.projectTitle {
 .baseBlock span {
   padding-right:15px;
   background:url('images/down-arrow.png') right center no-repeat;
-  font-family: 'AvenirLTStd-Roman';
+  font-family: 'Ubuntu', sans-serif;
   font-size:12px;
   letter-spacing:1px;
 }
@@ -1310,14 +1285,14 @@ h2.projectTitle {
 .featuredText h3 {
   font-size:18px;
   line-height:36px;
-  font-family:"Inconsolata";
+  font-family: 'Ubuntu', sans-serif;
 }
 
 .featuredText h2, .featuredText a.featuredLink {
   background-color:rgba(0, 0, 0, 0.56);
   text-transform:uppercase;
   font-size:60px;
-  font-family: 'AvenirLTStd-Heavy';
+  font-family: 'Raleway', sans-serif;
   line-height:95px;
   letter-spacing:2px;
   float:left;
@@ -1424,7 +1399,7 @@ h2.projectTitle {
   color: #000;
   font-weight: normal;
   margin: 0 0 15px;
-  font-family:'AvenirLTStd-Heavy';
+  font-family: 'Ubuntu', sans-serif;
   letter-spacing:1px;
   text-transform:uppercase;
 }
@@ -1560,7 +1535,7 @@ p img,
 .wp-caption .wp-caption-text,
 .gallery-caption {
   color: #666;
-  font-family: Georgia, serif;
+  font-family: 'Ubuntu', sans-serif;
   font-size: 12px;
 }
 .wp-caption .wp-caption-text {
@@ -2367,7 +2342,7 @@ section.recent-posts .other-recent-posts li:after {
   font-size: 12px;
   font-weight: normal;
   line-height: 2.2em;
-  font-family:'AvenirLTStd-Heavy';
+  font-family: 'Ubuntu', sans-serif;
   letter-spacing:1px;
   text-decoration:none;
   text-transform:uppercase;
@@ -2951,7 +2926,7 @@ p.comment-form-comment {
   /*border-top: 1px solid #ddd;
   padding: 1.625em 7.6%;*/
   overflow: hidden;
-  font-family:"Inconsolata";
+  font-family: 'Ubuntu', sans-serif;
 }
 
 /* Two Footer Widget Areas */
@@ -3038,7 +3013,9 @@ p.comment-form-comment {
     display: none;
   }
   #branding img {
-    display: none;
+    height: 100px;
+    float:left;
+    margin: 30px 0px;
   }
   #access {
     display: none;
